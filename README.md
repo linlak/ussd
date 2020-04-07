@@ -16,7 +16,8 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> 
+This a Node, Express USSD server patch for [tnmdev/ussd](https://packagist.org/packages/tnmdev/ussd)  <b>TruRoute USSD Adaptor for Laravel PHP</b>
     <br> 
 </p>
 
