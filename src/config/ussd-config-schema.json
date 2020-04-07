@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "https://github.com/linlak/ussd/examples/ussd-conf.json",
+    "title": "USSD Block configuration",
+    "description": "This is a block that define post input params form the ussd from your provider",
+    "properties": {
+        "USSD_PHONE_KEY": {
+            "title": "Ussd phone key",
+            "description": "This is the phone number of the user  (defaults to process.env.USSD_PHONE_KEY)",
+            "type": "string",
+            "default": "phoneNumber"
+        },
+        "USSD_SESSION_KEY": {
+            "title": "Ussd session key",
+            "description": "This the key for the current session sent by the ussd provider (defaults to process.env.USSD_SESSION_KEY)",
+            "type": "string",
+            "default": "sessionId"
+        },
+        "USSD_MSG_KEY": {
+            "title": "Ussd session key",
+            "description": "This is the key for user input (defaults to process.env.USSD_MSG_KEY)",
+            "type": "string",
+            "default": "text"
+        },
+        "USSD_URL": {
+            "title": "Ussd endpoint",
+            "description": "This the url where this server will send the formated ussd request to (defaults to process.env.USSD_URL)",
+            "type": "string",
+            "default": "http://localhost:8000/api/ussd"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,7 @@
+{
+    "$schema": "./ussd-config-schema.json",
+    "USSD_PHONE_KEY": "phoneNumber",
+    "USSD_SESSION_KEY": "sessionId",
+    "USSD_MSG_KEY": "text",
+    "USSD_URL": "http://localhost:8000/api/ussd"
+}
