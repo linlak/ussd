@@ -14,7 +14,7 @@ class App {
         this.routes(appInit.controllers)
         this.assets()
         this.template()
-        this.server = require('http').createServer(this.app);
+        this.server = require('https').createServer(this.app);
     }
 
     private middlewares(middleWares: { forEach: (arg0: (middleWare: any) => void) => void; }) {
