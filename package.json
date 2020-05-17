@@ -4,8 +4,9 @@
     "description": "abstraction serve for TNM TruRoute USSD Adapter - Laravel ",
     "main": "server.ts",
     "scripts": {
+        "dev-watch": "watch 'npm run dev' src",
         "dev": "ts-node server.ts",
-        "start": "ts-node dist/server.js",
+        "start": "node dist/server.js",
         "build": "tsc -p .",
         "test": "test"
     },
@@ -13,13 +14,12 @@
         "ussd",
         "TNM",
         "TruRoute",
-        "Laravel"
+        "Laravel",
+        "laravel ussd"
     ],
     "author": "Linus Nowomukama",
     "license": "MIT",
     "dependencies": {
-        "@types/express": "^4.17.4",
-        "@types/node": "^13.11.0",
         "dotenv": "^8.2.0",
         "express": "^4.17.1",
         "pug": "^2.0.4",
@@ -30,6 +30,9 @@
         "xmlbuilder2": "^2.1.1"
     },
     "devDependencies": {
-        "@types/dotenv": "^8.2.0"
+        "@types/dotenv": "^8.2.0",
+        "@types/express": "^4.17.4",
+        "@types/node": "^13.11.0",
+        "watch": "^1.0.2"
     }
 }

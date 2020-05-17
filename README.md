@@ -98,12 +98,14 @@ This section will take you through how to deploy this on a live system.
 
 - [Express](https://expressjs.com/) - Server Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Typescript](https://www.typescriptlang.org/) - Language Used
+- [xmlbuilder2](https://www.npmjs.com/package/xmlbuilder) - XML manipulation
 
 ## ✍️ Authors <a name = "authors"></a>
 
 - [@linlak](https://github.com/linlak) - Idea & Initial work
 
-See also the list of [contributors](https://github.com/linlak/The-Documentation-Compendium/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/linlak/ussd/contributors) who participated in this project.
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
